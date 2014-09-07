@@ -1,0 +1,14 @@
+nav{font-family: 'Roboto Condensed', sans-serif; 
+margin-top:30px;}
+header img{ height:100px; width:auto;margin-bottom:10px;}
+.otros-organismos { padding-bottom:20px;}
+.otros-organismos img{max-width: 180px; height:auto;}
+.otros-organismos h4{ font-family: 'Roboto Condensed', sans-serif;}
+footer{ background-color:#828282; border-top: 5px solid #414040; padding-bottom:20px;  color:#fff;}
+footer h3{font-family: 'Roboto Condensed', sans-serif;}
+.form-control{ border-radius:0px;}
+.consulta{margin-top:20px;}
+.carousel-caption{background-color:#000;}
+p{font-family: 'Roboto Condensed', sans-serif; }
+IGRESAR{ margin-left:45px;text-transform:uppercase;}
+.nav-pills>li+li{margin-left:20px;}
