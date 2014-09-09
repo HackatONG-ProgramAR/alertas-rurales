@@ -1,0 +1,3 @@
+<%@ page defaultCodec="html" %>
+<g:set var="propValue" value="${property.tokenize('.').inject(bean) {obj, prop -> obj."$prop" }}"/>
+<ui:select id="${prefix}${property}" name="${prefix}${property}" value="${propValue}" from="${persistentProperty.referencedPropertyType.values()}" keys="${persistentProperty.referencedPropertyType.values()}" placeholder="${g.message(code: 'values.none')}" required="false" width="200" valueMessagePrefix="${persistentProperty.referencedPropertyType.name}" disabled="true"/>

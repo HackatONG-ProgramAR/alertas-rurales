@@ -1,0 +1,2 @@
+<%@ page defaultCodec="html" %>
+<ui:select name="${prefix}${property}" optionKey="id" value="${value*.id}" from="${persistentProperty.referencedPropertyType.list()}" multiple="true" data-placeholder="Seleccione un valor" required="${required}" width="300"/>

@@ -1,0 +1,2 @@
+<%@ page defaultCodec="html" %>
+<ui:select id="${prefix}${property}" name="${prefix}${property}" value="${value}" from="${persistentProperty.referencedPropertyType.values()}" keys="${persistentProperty.referencedPropertyType.values()}" data-placeholder="Seleccione un valor" width="200" valueMessagePrefix="${persistentProperty.referencedPropertyType.name}" required="${required}"/>
